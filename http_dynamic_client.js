@@ -15,6 +15,10 @@ function handleResponse(response) {
     console.log(serverData);
   });
 }
+function hi() {
+  console.log("hi node...");
+}
+
 http.request(options, function(response) { 
   handleResponse(response);
 }).end();
